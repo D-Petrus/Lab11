@@ -6,7 +6,7 @@ public class TestBank {
           bank.addAccount(new Account(1000));
         }
         System.out.println("Początkowe saldo w banku = "+bank.getTotalBalance());
-
+//
         Bank.getInstance().transfer(10,15,70);
         Bank.getInstance().transfer(14,55,800);
 
